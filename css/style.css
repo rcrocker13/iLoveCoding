@@ -8,6 +8,14 @@ body{
     padding: 30px;
     padding-bottom: 20px;
     padding-top: 10px;
-    margin: 30px 20px 10px 5px;
+    margin: 30px;
     box-sizing:border-box;
+}
+
+main{
+    background-color: #badbf4;
+}
+
+aside{
+    background-color: #f4f5ec;
 }
