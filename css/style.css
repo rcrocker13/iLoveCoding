@@ -6,15 +6,29 @@ body{
 }
 
 .offer{
+    position:relative;
     background-color:#ffffff;
     padding:20px;
     border:10px dotted #f2a4a4;
     width:200px;
-    margin:0px auto;
+    margin:100px auto;
 }
 
 .offer h1{
     font-family:"Pacifico", "Georgia";
     font-weigh:normal;
     color:#d85d5d;
+}
+
+.offer p{
+    font-family:"Pacifico", "Georgia";
+    font-weigh:normal;
+    color:#b2a3a3;
+    margin-bottom:0px;
+}
+
+.offer img{
+    position:absolute;
+    right:-70px;
+    top:-70px;
 }
