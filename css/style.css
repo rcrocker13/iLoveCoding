@@ -10,12 +10,19 @@ body{
     padding-top: 10px;
     margin: 30px;
     box-sizing:border-box;
+    overflow:hidden;
 }
 
 main{
+    float:left;
     background-color: #badbf4;
 }
 
 aside{
+    float:right;
     background-color: #f4f5ec;
+}
+
+footer{
+    clear:both;
 }
