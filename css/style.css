@@ -4,9 +4,16 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    color: #333:
+}
+
+a:hover{
+    color: #0062ff;
+}
 .wrapper{
     background-color: #fff;
-    width: 1000px;
+    width: 750px;
     margin: 0 auto;
     border-radius: 20px;
 }
@@ -24,6 +31,81 @@ header .brand span{
 }
 
 .hero{
-    height: 400px;
-    background: #68bba1 url('../img/math.jpg') center no-repeat;
+    height: 300px;
+    background: rgba(103, 148, 211, 0.92) url('../img/math.jpg') center no-repeat;
+}
+
+content{
+    overflow: hidden;
+    display: block;
+    padding: 50px;
+}
+
+main{
+    float: left;
+    width: 60%;
+}
+
+aside{
+    float: right;
+    font-size: 60%;
+}
+
+aside ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+aside a{
+    padding: 10px 0;
+    display: block;
+}
+
+aside .section{
+    background-color: #fdd761;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+aside .section h3{
+    background-color: #ff5353;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 0;
+}
+
+article{
+    margin-bottom: 60px;
+    font-size: 120%;
+    color: #333;
+    padding: 0px;
+}
+
+article h2{
+    margin-bottom: 0;
+    font-size: 100%;
+    font-weight: bolder;
+    color: #333;
+    padding: 0px;
+}
+
+article span{
+    font-size: 60%;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+article p{
+    margin-top: 0px;
+    font-size: 50%;
+    color: #333;
+    padding: 0px;
+}
+
+footer{
+    text-align: center;
+    margin: 0px auto;
+    clear: both;
 }
